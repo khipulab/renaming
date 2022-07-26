@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6908292.svg)](https://doi.org/10.5281/zenodo.6908292)
+
+
 ## Supplemental Code for "A New Naming Convention for Andean Khipus"
 
 The code in this repository can be used to reproduce the renaming procedure described in Brezine, Clindaniel, Ghezzi, Hyland and Medrano (Under Review) "A New Naming Convention for Andean Khipus."
