@@ -114,21 +114,6 @@ df_explode.head()
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -165,7 +150,6 @@ df_explode.head()
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -191,20 +175,6 @@ pd.read_sql_query('''
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -241,7 +211,7 @@ pd.read_sql_query('''
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
@@ -309,20 +279,7 @@ agg_inv_num_df[['okr_num', 'agg_inv_num']]
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -399,7 +356,7 @@ agg_inv_num_df[['okr_num', 'agg_inv_num']]
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
@@ -433,20 +390,7 @@ khipu_main.loc[khipu_main.KHIPU_ID.isin(agg_inv_num_df.KHIPU_ID), ['OKR_NUM','IN
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -523,7 +467,6 @@ khipu_main.loc[khipu_main.KHIPU_ID.isin(agg_inv_num_df.KHIPU_ID), ['OKR_NUM','IN
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -559,20 +502,7 @@ khipu_main[['OKR_NUM', 'PROVENANCE']]
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -594,7 +524,7 @@ khipu_main[['OKR_NUM', 'PROVENANCE']]
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
@@ -684,20 +614,7 @@ khipu_main[['OKR_NUM', 'MUSEUM_NUM']]
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -989,6 +906,6 @@ khipu_main[['OKR_NUM', 'MUSEUM_NUM']]
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
