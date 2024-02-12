@@ -3,7 +3,7 @@
 
 ## Supplemental Code for "A New Naming Convention for Andean Khipus"
 
-The code in this repository can be used to reproduce the renaming procedure described in Brezine, Clindaniel, Ghezzi, Hyland and Medrano (Under Review) "A New Naming Convention for Andean Khipus."
+The code in this repository can be used to reproduce the renaming procedure described in [Brezine, Clindaniel, Ghezzi, Hyland and Medrano (2024)](https://doi.org/10.1017/laq.2023.71) "A New Naming Convention for Andean Khipus."
 
 The code is written in Python 3.9.12 and all of its dependencies can be installed by running the following in the terminal (with the `requirements.txt` file included in this repository):
 
